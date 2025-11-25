@@ -17,7 +17,7 @@ const Portfolio = () => {
   // Personal Information based on your profile
   const me = {
     name: "Harsh",
-    role: "Linux Enthusiast",
+    role: "ECE Student & Linux Enthusiast",
     tagline: "I break things to see how they work. And yes, I use Arch btw.",
     bio: "I am an Electronics and Communication Engineering student bridging the gap between hardware and software. Currently mastering the art of C++, Python, and low-level system configuration on my Dell 14 Plus.",
   };
@@ -174,6 +174,7 @@ const Portfolio = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>
               <div className="h-1 w-20 bg-cyan-500 rounded-full"></div>
+            </div>
             {/* Filter Tabs */}
             <div className="flex gap-2 mt-4 md:mt-0">
               {['all', 'Hardware', 'Software'].map((tab) => (
