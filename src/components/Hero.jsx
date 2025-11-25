@@ -1,13 +1,13 @@
 import React from 'react';
 import { Terminal, Github, ExternalLink } from 'lucide-react';
 import { personalInfo } from '../data/config';
-import TerminalBlock from './TerminalBlock';
+import InteractiveTerminal from './InteractiveTerminal'; // CHANGED
 
 const Hero = () => {
   return (
     <section id="about" className="pt-32 pb-20 px-4 min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto w-full">
-        <div className="flex flex-col md:flex-row items-center gap-12">
+        <div className="flex flex-col lg:flex-row items-center gap-12">
           
           {/* Text Content */}
           <div className="flex-1 space-y-6">
@@ -35,9 +35,9 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Terminal Visual */}
-          <div className="flex-1 w-full flex justify-center md:justify-end">
-            <TerminalBlock />
+          {/* Interactive Terminal Visual */}
+          <div className="flex-1 w-full flex justify-center lg:justify-end">
+            <InteractiveTerminal />
           </div>
 
         </div>

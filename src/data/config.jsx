@@ -6,9 +6,9 @@ export const personalInfo = {
   tagline: "I break things to see how they work. And yes, I use Arch btw.",
   bio: "I am an Electronics and Communication Engineering student bridging the gap between hardware and software. Currently mastering C++, Python, and low-level system configuration on my Dell 14 Plus.",
   socials: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
-    email: "mailto:harsh@example.com"
+    github: "https://github.com/hrs-temp",
+    linkedin: "#",
+    email: "mailto:harshraj112abc@gmail.com"
   }
 };
 
